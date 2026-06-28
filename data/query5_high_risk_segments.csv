@@ -1,0 +1,31 @@
+grade,purpose,emp_length,total_loans,defaults,default_rate_pct,avg_dti,avg_income,avg_loan_amount
+G,debt_consolidation,,283,174,61.48,32.28,48225.42,16839.66
+F,debt_consolidation,,1032,587,56.88,26.76,48888.82,15059.06
+G,debt_consolidation,5 years,316,179,56.65,22.78,71522.88,20879.98
+G,small_business,10+ years,113,63,55.75,15.46,98345.50,22894.47
+G,debt_consolidation,8 years,244,132,54.10,22.93,74280.81,21364.14
+G,debt_consolidation,2 years,476,257,53.99,22.80,72679.64,20675.68
+G,debt_consolidation,1 year,378,202,53.44,22.88,70135.11,19919.18
+G,debt_consolidation,4 years,307,161,52.44,22.36,73937.19,20680.13
+F,credit_card,3 years,205,107,52.20,22.40,70993.99,20094.15
+G,debt_consolidation,< 1 year,442,229,51.81,23.62,69952.04,20760.46
+G,debt_consolidation,3 years,420,214,50.95,21.63,73822.78,21005.06
+F,debt_consolidation,8 years,1015,517,50.94,22.25,73006.87,20561.70
+F,debt_consolidation,1 year,1247,624,50.04,21.64,69659.20,19069.15
+G,debt_consolidation,9 years,228,114,50.00,23.33,71764.77,20129.61
+G,debt_consolidation,6 years,284,142,50.00,22.40,75657.57,20761.09
+F,home_improvement,8 years,105,52,49.52,17.65,86651.38,23044.05
+E,credit_card,,627,309,49.28,24.88,41052.79,13191.31
+F,debt_consolidation,9 years,853,417,48.89,22.75,76501.67,20546.42
+F,debt_consolidation,4 years,1175,571,48.60,21.49,71647.56,19412.81
+G,debt_consolidation,10+ years,2042,992,48.58,22.41,79833.67,22776.10
+F,debt_consolidation,6 years,991,481,48.54,21.47,71318.13,19846.22
+F,debt_consolidation,3 years,1524,737,48.36,21.72,71688.09,19412.12
+F,small_business,3 years,112,54,48.21,16.66,80807.46,16000.22
+G,debt_consolidation,7 years,248,119,47.98,22.28,74099.08,21345.16
+E,major_purchase,5 years,148,70,47.30,16.67,73696.39,16804.05
+F,debt_consolidation,< 1 year,1483,698,47.07,22.11,66465.76,19140.49
+F,credit_card,8 years,119,56,47.06,22.89,77224.45,20958.61
+F,credit_card,2 years,249,117,46.99,23.01,71994.25,20019.48
+F,other,9 years,115,54,46.96,18.88,70338.69,13814.78
+F,debt_consolidation,2 years,1792,830,46.32,21.60,70154.36,18979.80
