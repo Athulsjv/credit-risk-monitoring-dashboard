@@ -1,6 +1,7 @@
 # Credit Risk Monitoring Dashboard
 ### End-to-End Credit Risk Analysis using PostgreSQL & Power BI
 **Dataset:** 1.34 Million Loans | **Portfolio Size:** $19.39 Billion
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
 ![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
 ![SQL](https://img.shields.io/badge/SQL-Analytics-green)
