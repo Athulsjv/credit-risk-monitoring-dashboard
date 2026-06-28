@@ -1,7 +1,6 @@
-# credit-risk-monitoring-dashboard
-Credit Risk Analysis Dashboard | PostgreSQL | Power BI | Lending Club Loan Dataset (1.34M Loans)
 # Credit Risk Monitoring Dashboard
-### PostgreSQL • Power BI • 1.34M Loan Records • $19.39B Portfolio
+### End-to-End Credit Risk Analysis using PostgreSQL & Power BI
+**Dataset:** 1.34 Million Loans | **Portfolio Size:** $19.39 Billion
 
 ---
 
@@ -16,9 +15,9 @@ to answer exactly that — identifying which borrower segments
 carry disproportionate default risk and what the business 
 should do about it.
 
-Built to replicate the daily credit risk monitoring workflow 
-used by analysts at banking GCCs such as JPMorgan, Standard 
-Chartered, and HSBC.
+This project simulates the analytical workflow used by credit risk analysts
+to monitor portfolio performance, identify high-risk borrower segments, and 
+support data-driven lending decisions in large financial institutions.
 
 ---
 
@@ -38,8 +37,8 @@ Chartered, and HSBC.
 - Imported 2.26M records into PostgreSQL
 - Cleaned and filtered to 1.34M relevant records
   (Fully Paid and Charged Off only)
-- Engineered key financial metrics: DTI, FICO bands, 
-  interest rate as numeric, binary default flag (is_default)
+- Engineered analytical features including DTI, FICO bands,
+  numeric interest rate, and binary default flag (is_default).
 
 **2. SQL Analysis**
 - 5 business-driven queries across grade, purpose, 
@@ -83,7 +82,7 @@ default at the **highest rate** of 49.92%.
 This reveals that **FICO score deterioration and interest 
 rate burden** are stronger default predictors than income.
 As grade worsens, interest rates rise from 7.11% to 27.72% 
-— creating a self-fulfilling default cycle where low FICO 
+- creating a self-fulfillin default cycle where low FICO 
 triggers high rates, high rates cause repayment stress, 
 and stress causes default.
 
@@ -106,11 +105,11 @@ employment (NULL emp_length) — suggesting unverified income
 is a critical and addressable risk factor.
 
 **Recommendation 2 — Interest Rate Cap for High Risk Grades**
-Consider capping or restructuring interest rates for Grade G 
-borrowers. At 27.72% average interest rate with a 21.52% 
-average DTI, repayment becomes mathematically unsustainable 
-— the interest rate itself may be accelerating defaults 
-rather than compensating for risk.
+Consider capping or restructuring interest rates for Grade G borrowers. 
+At an average interest rate of 27.72% and an average DTI of 21.52%, repayment 
+becomes increasingly difficult for many borrowers, potentially accelerating 
+default risk. Reviewing pricing strategies or offering structured repayment 
+options may help improve repayment outcomes while managing portfolio risk.
 
 ---
 
@@ -126,3 +125,19 @@ rather than compensating for risk.
 ---
 
 ## Repository Structure
+
+| Folder | Contents |
+|--------|---------|
+| /queries | 5 SQL scripts for feature engineering and business analysis |
+| /data | Exported CSV results from each query |
+| /dashboard | Power BI .pbix file and PDF export |
+| /screenshots | Dashboard page screenshots |
+
+---
+
+## Author
+
+**Athul Sajeev**  
+MBA — Business Analytics & Finance | 2026  
+https://www.linkedin.com/in/athul-sajeev-0020631b4  
+athulsajeev.88@gmail.com
